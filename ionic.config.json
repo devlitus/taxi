@@ -1,5 +1,8 @@
 {
   "name": "taxi",
-  "integrations": {},
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
   "type": "angular"
 }

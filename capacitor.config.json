@@ -1,0 +1,7 @@
+{
+  "appId": "com.taxi.app",
+  "appName": "taxi",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}

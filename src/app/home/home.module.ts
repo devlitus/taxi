@@ -6,6 +6,8 @@ import { RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
 
+import { AgmCoreModule } from '@agm/core';
+
 @NgModule({
   imports: [
     CommonModule,
@@ -16,8 +18,11 @@ import { HomePage } from './home.page';
         path: '',
         component: HomePage
       }
-    ])
+    ]),
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyD87XbE-l2hJWKe7FNNoxsMy3vo_bzQhB0'
+    })
   ],
   declarations: [HomePage]
 })
-export class HomePageModule {}
+export class HomePageModule { }
